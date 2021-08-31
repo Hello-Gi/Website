@@ -8,19 +8,25 @@
     border-radius: 5px;
 }
 
-.get-now-button {
+.navbar-nav ml-auto a {
+    color: white;
+}
+
+.get-now-button h6 {
     border-radius: 25px;
     background-color: #FF6347;
     padding: 1vh;
     border: 1px dotted gray;
     font-weight: bolder;
     font-size: x-large;
+    color: white;
 }
 
-.get-now-button:hover {
+.get-now-button h6:hover {
     background-color: red;
     color: white;
-    box-shadow: 2px 2px red;
+    box-shadow: 2px 2px grey;
+    padding: 2vh;
 }
 
 .courses-offered {
