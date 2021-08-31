@@ -1,0 +1,193 @@
+.bs-example {
+    width: auto;
+    font-weight: bold;
+}
+
+.navbar-nav {
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.get-now-button {
+    border-radius: 25px;
+    background-color: #FF6347;
+    padding: 1vh;
+    border: 1px dotted gray;
+    font-weight: bolder;
+    font-size: x-large;
+}
+
+.get-now-button:hover {
+    background-color: red;
+    color: white;
+    box-shadow: 2px 2px red;
+}
+
+.courses-offered {
+    /* background-color: whitesmoke; */
+    border-radius: 50px;
+    margin-left: 4vw;
+    margin-right: 4vw;
+    margin-top: 2vh;
+    background-color: whitesmoke;
+    border-radius: 50px;
+    /* display: flex;
+    flex-wrap: wrap; */
+}
+
+.courses-offered h1 {
+    color: red;
+    /* background-color: gray; */
+    font-size: 7.5vh;
+    text-align: center;
+    font-weight: bolder;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.courses-offered h1:hover {
+    animation-delay: 2ms;
+    color: orange;
+}
+
+.courses {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    /* margin-block-end: 5vh; */
+    margin-top: 2vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.courses>div {
+    margin: auto;
+    /* margin-left: 5vh;
+    margin-top: auto; */
+}
+
+.card1 card-text {
+    font-weight: lighter;
+}
+
+
+/* .courses .card1 .h {
+    font-weight: bolder;
+} */
+
+.front-side {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.front-side>div {
+    margin: auto;
+}
+
+.front-image {
+    max-width: 40%;
+    /* margin-bottom: 5vh;
+    margin-left: 4vh; */
+    border-radius: 1vw;
+    border: 2px dotted gray;
+    box-shadow: 2px 2px darkgray;
+}
+
+.front-side-paragraph {
+    max-width: 40%;
+}
+
+strong {
+    color: red;
+}
+
+.proof-Section {
+    border-radius: 50px;
+    margin-left: 4vw;
+    margin-right: 4vw;
+    margin-top: 2vh;
+    background-color: whitesmoke;
+    /* border-radius: 50px; */
+}
+
+.proof-Section img {
+    /* border-radius: 5vh; */
+    border: 2px dotted darkorange;
+}
+
+.proof-heading h1 {
+    text-align: center;
+    /* text-align: center; */
+    /* color: #007BFF; */
+    font-weight: bolder;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 7.5vh;
+}
+
+.proof-images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.proof-images>div {
+    margin: 5vh;
+}
+
+.How-Discount {
+    margin-top: 5vh;
+}
+
+.How-Heading h2 {
+    text-align: center;
+    color: #007BFF;
+    font-weight: bolder;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 7.5vh;
+}
+
+.how-discount-images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.how-discount-images>div {
+    margin: auto;
+    text-align: center;
+    font-weight: normal;
+}
+
+.why-coding-ninjas-heading h1 {
+    margin-top: 5vh;
+    text-align: center;
+    color: #007BFF;
+    font-weight: bolder;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 7.5vh;
+}
+
+.why-coding-ninjas {
+    border-radius: 50px;
+    margin-left: 4vw;
+    margin-right: 4vw;
+    margin-top: 2vh;
+    background-color: whitesmoke;
+}
+
+.why-coding-ninjas-video {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+.why-coding-ninjas-video>div {
+    max-width: 25%;
+    max-height: 20%;
+    margin: 3vh;
+    border-radius: 25px;
+    box-shadow: 5px 5px darkgray;
+}
